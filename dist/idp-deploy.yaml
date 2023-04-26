@@ -6,11 +6,11 @@ Parameters:
   UserProfileName:
     Type: String
     Description: The user profile name for the IDP workshop
-    Default: 'SageMakerUser'
+    Default: 'IDPOLAUser'
   DomainName:
     Type: String
     Description: The domain name of the Sagemaker studio instance
-    Default: 'IDPSagemakerDomain'
+    Default: 'IDPOLADomain'
 
 Mappings:
   JupyterMap:
