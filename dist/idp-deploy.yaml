@@ -219,7 +219,7 @@ Resources:
               #!/bin/bash
               set -eux
               echo "Cloning IDP repository"
-              export REPOSITORY_URL="https://github.com/aws-samples/aws-ai-intelligent-document-processing"
+              export REPOSITORY_URL="https://github.com/rsb73/IDP_OLA_Sandbox.git"
               git -C /home/sagemaker-user clone $REPOSITORY_URL
               echo "Cloning complete"''')
               script_byte = script.encode("ascii")
