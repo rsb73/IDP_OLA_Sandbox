@@ -107,6 +107,7 @@ Resources:
                   - comprehend:StartPiiEntitiesDetectionJob
                   - comprehend:StopPiiEntitiesDetectionJob
                   - comprehend:StartEntitiesDetectionJob
+                  - comprehend:start_document_classification_job
                   - comprehend:ClassifyDocument
                   - comprehend:DescribeDocumentClassificationJob
                   - comprehend:DescribeDocumentClassifier
